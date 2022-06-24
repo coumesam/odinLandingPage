@@ -16,7 +16,9 @@
 .card-title,
 .cards, 
 .card-mini, 
-.subtext {
+.subtext, 
+#section4,
+.footer {
     display: flex;
 }
 
@@ -187,4 +189,44 @@
     text-align: right;
     font-weight: 700;
     padding-top: 10px;
+}
+
+#section4 {
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+#section4 .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 800px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+#section4 .box div h4 {
+    font-size: 24px;
+}
+
+#call-button {
+    font-size: 18px;
+    width: 120px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
